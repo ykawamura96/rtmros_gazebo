@@ -1,0 +1,1168 @@
+<?xml version="1.0"?>
+<robot name="SampleRobot"
+       xmlns:xi="http://www.w3.org/2001/XInclude">
+  <link name="WAIST_LINK0">
+    <visual>
+      <origin xyz="0 0 0.7235" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/WAIST_LINK0_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.7235" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/WAIST_LINK0_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="27" />
+      <origin xyz="0 0 0.0375" rpy="0 -0 0"/>
+      <inertia ixx="0.096482" ixy="0" ixz="0" iyy="0.096482" iyz="0" izz="0.0288"/>
+    </inertial>
+  </link>
+  <gazebo reference="WAIST_LINK0">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LLEG_LINK1">
+    <visual>
+      <origin xyz="0 0.09 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LLEG_LINK1_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0.09 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LLEG_LINK1_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2.5" />
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <inertia ixx="0.003125" ixy="0" ixz="0" iyy="0.003646" iyz="0" izz="0.003646"/>
+    </inertial>
+  </link>
+  <gazebo reference="LLEG_LINK1">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LLEG_LINK2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LLEG_LINK2_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LLEG_LINK2_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2" />
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <inertia ixx="0.002917" ixy="0" ixz="0" iyy="0.0025" iyz="0" izz="0.002917"/>
+    </inertial>
+  </link>
+  <gazebo reference="LLEG_LINK2">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LLEG_LINK3">
+    <visual>
+      <origin xyz="0 0 -0.3535" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LLEG_LINK3_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.3535" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LLEG_LINK3_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="5.1" />
+      <origin xyz="0 0 0.18" rpy="0 -0 0"/>
+      <inertia ixx="0.03156" ixy="0" ixz="0" iyy="0.03156" iyz="0" izz="0.0085"/>
+    </inertial>
+  </link>
+  <gazebo reference="LLEG_LINK3">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LLEG_LINK4">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LLEG_LINK4_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LLEG_LINK4_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="7" />
+      <origin xyz="0 0 -0.12" rpy="0 -0 0"/>
+      <inertia ixx="0.05833" ixy="0" ixz="0" iyy="0.05833" iyz="0" izz="0.01167"/>
+    </inertial>
+  </link>
+  <gazebo reference="LLEG_LINK4">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LLEG_LINK5">
+    <visual>
+      <origin xyz="0 0 -0.3" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LLEG_LINK5_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.3" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LLEG_LINK5_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2.5" />
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <inertia ixx="0.003646" ixy="0" ixz="0" iyy="0.003125" iyz="0" izz="0.003646"/>
+    </inertial>
+  </link>
+  <gazebo reference="LLEG_LINK5">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LLEG_LINK6">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LLEG_LINK6_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LLEG_LINK6_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.9" />
+      <origin xyz="0.08 0 -0.03" rpy="0 -0 0"/>
+      <inertia ixx="0.005291" ixy="0" ixz="0" iyy="0.012084" iyz="0" izz="0.013"/>
+    </inertial>
+  </link>
+  <gazebo reference="LLEG_LINK6">
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <mu1>1.5</mu1>
+    <mu2>1.5</mu2>
+    <fdir1>1 0 0</fdir1>
+    <maxVel>10.0</maxVel>
+    <minDepth>0.00</minDepth>
+  </gazebo>
+  <link name="RLEG_LINK1">
+    <visual>
+      <origin xyz="0 -0.09 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RLEG_LINK1_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.09 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RLEG_LINK1_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2.5" />
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <inertia ixx="0.003125" ixy="0" ixz="0" iyy="0.003646" iyz="0" izz="0.003646"/>
+    </inertial>
+  </link>
+  <gazebo reference="RLEG_LINK1">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="RLEG_LINK2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RLEG_LINK2_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RLEG_LINK2_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2" />
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <inertia ixx="0.002917" ixy="0" ixz="0" iyy="0.0025" iyz="0" izz="0.002917"/>
+    </inertial>
+  </link>
+  <gazebo reference="RLEG_LINK2">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="RLEG_LINK3">
+    <visual>
+      <origin xyz="0 0 -0.3535" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RLEG_LINK3_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.3535" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RLEG_LINK3_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="5.1" />
+      <origin xyz="0 0 0.18" rpy="0 -0 0"/>
+      <inertia ixx="0.03156" ixy="0" ixz="0" iyy="0.03156" iyz="0" izz="0.0085"/>
+    </inertial>
+  </link>
+  <gazebo reference="RLEG_LINK3">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="RLEG_LINK4">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RLEG_LINK4_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RLEG_LINK4_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="7" />
+      <origin xyz="0 0 -0.12" rpy="0 -0 0"/>
+      <inertia ixx="0.05833" ixy="0" ixz="0" iyy="0.05833" iyz="0" izz="0.01167"/>
+    </inertial>
+  </link>
+  <gazebo reference="RLEG_LINK4">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="RLEG_LINK5">
+    <visual>
+      <origin xyz="0 0 -0.3" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RLEG_LINK5_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.3" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RLEG_LINK5_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2.5" />
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <inertia ixx="0.003646" ixy="0" ixz="0" iyy="0.003125" iyz="0" izz="0.003646"/>
+    </inertial>
+  </link>
+  <gazebo reference="RLEG_LINK5">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="RLEG_LINK6">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RLEG_LINK6_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RLEG_LINK6_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.9" />
+      <origin xyz="0.08 0 -0.03" rpy="0 -0 0"/>
+      <inertia ixx="0.005291" ixy="0" ixz="0" iyy="0.012084" iyz="0" izz="0.013"/>
+    </inertial>
+  </link>
+  <gazebo reference="RLEG_LINK6">
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <mu1>1.5</mu1>
+    <mu2>1.5</mu2>
+    <fdir1>1 0 0</fdir1>
+    <maxVel>10.0</maxVel>
+    <minDepth>0.00</minDepth>
+  </gazebo>
+  <link name="WAIST_LINK1">
+    <visual>
+      <origin xyz="0 0 0.176" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/WAIST_LINK1_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.176" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/WAIST_LINK1_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="6" />
+      <origin xyz="0 0 5.55112e-17" rpy="0 -0 0"/>
+      <inertia ixx="0.002187" ixy="0" ixz="0" iyy="0.001875" iyz="0" izz="0.002187"/>
+    </inertial>
+  </link>
+  <gazebo reference="WAIST_LINK1">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="WAIST_LINK2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/WAIST_LINK2_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/WAIST_LINK2_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="30" />
+      <origin xyz="0 0 0.16" rpy="0 -0 0"/>
+      <inertia ixx="0.27" ixy="0" ixz="0" iyy="0.27" iyz="0" izz="0.0125"/>
+    </inertial>
+  </link>
+  <gazebo reference="WAIST_LINK2">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="WAIST_LINK3">
+    <visual>
+      <origin xyz="0 0 0.35" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/WAIST_LINK3_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.35" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/WAIST_LINK3_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="13" />
+      <origin xyz="0 0 0.08" rpy="0 -0 0"/>
+      <inertia ixx="0.17" ixy="0" ixz="0" iyy="0.215" iyz="0" izz="0.2026"/>
+    </inertial>
+  </link>
+  <gazebo reference="WAIST_LINK3">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LARM_LINK1">
+    <visual>
+      <origin xyz="0 0.21 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK1_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0.21 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK1_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.4" />
+      <origin xyz="0 -0.05 2.22045e-16" rpy="0 -0 0"/>
+      <inertia ixx="0.000125" ixy="0" ixz="0" iyy="0.000146" iyz="0" izz="0.000125"/>
+    </inertial>
+  </link>
+  <gazebo reference="LARM_LINK1">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LARM_LINK2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK2_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK2_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2.2" />
+      <origin xyz="0 0 -0.1" rpy="0 -0 0"/>
+      <inertia ixx="0.008776" ixy="0" ixz="0" iyy="0.008776" iyz="0" izz="0.000917"/>
+    </inertial>
+  </link>
+  <gazebo reference="LARM_LINK2">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LARM_LINK3">
+    <visual>
+      <origin xyz="0 0 -0.263" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK3_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.263" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK3_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.4" />
+      <origin xyz="0 0 0.05" rpy="0 -0 0"/>
+      <inertia ixx="0.000146" ixy="0" ixz="0" iyy="0.000146" iyz="0" izz="0.000125"/>
+    </inertial>
+  </link>
+  <gazebo reference="LARM_LINK3">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LARM_LINK4">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK4_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK4_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2.2" />
+      <origin xyz="0 0 -0.1" rpy="0 -0 0"/>
+      <inertia ixx="0.007573" ixy="0" ixz="0" iyy="0.007573" iyz="0" izz="0.000917"/>
+    </inertial>
+  </link>
+  <gazebo reference="LARM_LINK4">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LARM_LINK5">
+    <visual>
+      <origin xyz="0 0 -0.247" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK5_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.247" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK5_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.4" />
+      <origin xyz="0 0 0.05" rpy="0 -0 0"/>
+      <inertia ixx="0.000146" ixy="0" ixz="0" iyy="0.000146" iyz="0" izz="0.000125"/>
+    </inertial>
+  </link>
+  <gazebo reference="LARM_LINK5">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LARM_LINK6">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK6_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK6_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.4" />
+      <origin xyz="0 0.01 -0.09" rpy="0 -0 0"/>
+      <inertia ixx="0.001851" ixy="0" ixz="0" iyy="0.001771" iyz="0" izz="0.000247"/>
+    </inertial>
+  </link>
+  <gazebo reference="LARM_LINK6">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="LARM_LINK7">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK7_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/LARM_LINK7_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.4" />
+      <origin xyz="0 -0.03 -0.1" rpy="0 -0 0"/>
+      <inertia ixx="0.00078" ixy="0" ixz="0" iyy="0.000833" iyz="0" izz="0.000113"/>
+    </inertial>
+  </link>
+  <gazebo reference="LARM_LINK7">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="RARM_LINK1">
+    <visual>
+      <origin xyz="0 -0.21 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK1_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 -0.21 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK1_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.4" />
+      <origin xyz="0 0.05 2.22045e-16" rpy="0 -0 0"/>
+      <inertia ixx="0.000125" ixy="0" ixz="0" iyy="0.000146" iyz="0" izz="0.000125"/>
+    </inertial>
+  </link>
+  <gazebo reference="RARM_LINK1">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="RARM_LINK2">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK2_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK2_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2.2" />
+      <origin xyz="0 0 -0.1" rpy="0 -0 0"/>
+      <inertia ixx="0.008776" ixy="0" ixz="0" iyy="0.008776" iyz="0" izz="0.000917"/>
+    </inertial>
+  </link>
+  <gazebo reference="RARM_LINK2">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="RARM_LINK3">
+    <visual>
+      <origin xyz="0 0 -0.263" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK3_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.263" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK3_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.4" />
+      <origin xyz="0 0 0.05" rpy="0 -0 0"/>
+      <inertia ixx="0.000146" ixy="0" ixz="0" iyy="0.000146" iyz="0" izz="0.000125"/>
+    </inertial>
+  </link>
+  <gazebo reference="RARM_LINK3">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="RARM_LINK4">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK4_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK4_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="2.2" />
+      <origin xyz="0 0 -0.1" rpy="0 -0 0"/>
+      <inertia ixx="0.007573" ixy="0" ixz="0" iyy="0.007573" iyz="0" izz="0.000917"/>
+    </inertial>
+  </link>
+  <gazebo reference="RARM_LINK4">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="RARM_LINK5">
+    <visual>
+      <origin xyz="0 0 -0.247" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK5_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.247" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK5_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.4" />
+      <origin xyz="0 0 0.05" rpy="0 -0 0"/>
+      <inertia ixx="0.000146" ixy="0" ixz="0" iyy="0.000146" iyz="0" izz="0.000125"/>
+    </inertial>
+  </link>
+  <gazebo reference="RARM_LINK5">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="RARM_LINK6">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK6_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK6_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.4" />
+      <origin xyz="0 -0.01 -0.09" rpy="0 -0 0"/>
+      <inertia ixx="0.001851" ixy="0" ixz="0" iyy="0.001771" iyz="0" izz="0.000247"/>
+    </inertial>
+  </link>
+  <gazebo reference="RARM_LINK6">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <link name="RARM_LINK7">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK7_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <geometry>
+        <mesh filename="package://hrpsys_gazebo_general/robot_models/SampleRobot/meshes/RARM_LINK7_mesh.dae" scale="1 1 1" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.4" />
+      <origin xyz="0 0.03 -0.1" rpy="0 -0 0"/>
+      <inertia ixx="0.00078" ixy="0" ixz="0" iyy="0.000833" iyz="0" izz="0.000113"/>
+    </inertial>
+  </link>
+  <gazebo reference="RARM_LINK7">
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+  </gazebo>
+  <joint name="LLEG_HIP_R" type="revolute">
+    <parent link="WAIST_LINK0"/>
+    <child  link="LLEG_LINK1"/>
+    <origin xyz="0 0.09 0" rpy="0 -0 0 "/>
+    <axis   xyz="1 0 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LLEG_HIP_R_trans" >
+    <actuator name="LLEG_HIP_R_motor" />
+    <joint name="LLEG_HIP_R" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LLEG_HIP_R">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="LLEG_HIP_P" type="revolute">
+    <parent link="LLEG_LINK1"/>
+    <child  link="LLEG_LINK2"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LLEG_HIP_P_trans" >
+    <actuator name="LLEG_HIP_P_motor" />
+    <joint name="LLEG_HIP_P" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LLEG_HIP_P">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="LLEG_HIP_Y" type="revolute">
+    <parent link="LLEG_LINK2"/>
+    <child  link="LLEG_LINK3"/>
+    <origin xyz="0 0 -0.3535" rpy="0 -0 0 "/>
+    <axis   xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LLEG_HIP_Y_trans" >
+    <actuator name="LLEG_HIP_Y_motor" />
+    <joint name="LLEG_HIP_Y" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LLEG_HIP_Y">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="LLEG_KNEE" type="revolute">
+    <parent link="LLEG_LINK3"/>
+    <child  link="LLEG_LINK4"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LLEG_KNEE_trans" >
+    <actuator name="LLEG_KNEE_motor" />
+    <joint name="LLEG_KNEE" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LLEG_KNEE">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="LLEG_ANKLE_P" type="revolute">
+    <parent link="LLEG_LINK4"/>
+    <child  link="LLEG_LINK5"/>
+    <origin xyz="0 0 -0.3" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LLEG_ANKLE_P_trans" >
+    <actuator name="LLEG_ANKLE_P_motor" />
+    <joint name="LLEG_ANKLE_P" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LLEG_ANKLE_P">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="LLEG_ANKLE_R" type="revolute">
+    <parent link="LLEG_LINK5"/>
+    <child  link="LLEG_LINK6"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="1 0 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LLEG_ANKLE_R_trans" >
+    <actuator name="LLEG_ANKLE_R_motor" />
+    <joint name="LLEG_ANKLE_R" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LLEG_ANKLE_R">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RLEG_HIP_R" type="revolute">
+    <parent link="WAIST_LINK0"/>
+    <child  link="RLEG_LINK1"/>
+    <origin xyz="0 -0.09 0" rpy="0 -0 0 "/>
+    <axis   xyz="1 0 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RLEG_HIP_R_trans" >
+    <actuator name="RLEG_HIP_R_motor" />
+    <joint name="RLEG_HIP_R" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RLEG_HIP_R">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RLEG_HIP_P" type="revolute">
+    <parent link="RLEG_LINK1"/>
+    <child  link="RLEG_LINK2"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RLEG_HIP_P_trans" >
+    <actuator name="RLEG_HIP_P_motor" />
+    <joint name="RLEG_HIP_P" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RLEG_HIP_P">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RLEG_HIP_Y" type="revolute">
+    <parent link="RLEG_LINK2"/>
+    <child  link="RLEG_LINK3"/>
+    <origin xyz="0 0 -0.3535" rpy="0 -0 0 "/>
+    <axis   xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="6.0" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RLEG_HIP_Y_trans" >
+    <actuator name="RLEG_HIP_Y_motor" />
+    <joint name="RLEG_HIP_Y" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RLEG_HIP_Y">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RLEG_KNEE" type="revolute">
+    <parent link="RLEG_LINK3"/>
+    <child  link="RLEG_LINK4"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RLEG_KNEE_trans" >
+    <actuator name="RLEG_KNEE_motor" />
+    <joint name="RLEG_KNEE" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RLEG_KNEE">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RLEG_ANKLE_P" type="revolute">
+    <parent link="RLEG_LINK4"/>
+    <child  link="RLEG_LINK5"/>
+    <origin xyz="0 0 -0.3" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RLEG_ANKLE_P_trans" >
+    <actuator name="RLEG_ANKLE_P_motor" />
+    <joint name="RLEG_ANKLE_P" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RLEG_ANKLE_P">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RLEG_ANKLE_R" type="revolute">
+    <parent link="RLEG_LINK5"/>
+    <child  link="RLEG_LINK6"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="1 0 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RLEG_ANKLE_R_trans" >
+    <actuator name="RLEG_ANKLE_R_motor" />
+    <joint name="RLEG_ANKLE_R" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RLEG_ANKLE_R">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="WAIST_P" type="revolute">
+    <parent link="WAIST_LINK0"/>
+    <child  link="WAIST_LINK1"/>
+    <origin xyz="0 0 0.176" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="WAIST_P_trans" >
+    <actuator name="WAIST_P_motor" />
+    <joint name="WAIST_P" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="WAIST_P">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="WAIST_R" type="revolute">
+    <parent link="WAIST_LINK1"/>
+    <child  link="WAIST_LINK2"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="1 0 0"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="WAIST_R_trans" >
+    <actuator name="WAIST_R_motor" />
+    <joint name="WAIST_R" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="WAIST_R">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="CHEST" type="revolute">
+    <parent link="WAIST_LINK2"/>
+    <child  link="WAIST_LINK3"/>
+    <origin xyz="0 0 0.35" rpy="0 -0 0 "/>
+    <axis   xyz="0 0 1"/>
+    <limit lower="-3.14159" upper="3.14159" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="CHEST_trans" >
+    <actuator name="CHEST_motor" />
+    <joint name="CHEST" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="CHEST">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="LARM_SHOULDER_P" type="revolute">
+    <parent link="WAIST_LINK3"/>
+    <child  link="LARM_LINK1"/>
+    <origin xyz="0 0.21 0" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="1.5708" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LARM_SHOULDER_P_trans" >
+    <actuator name="LARM_SHOULDER_P_motor" />
+    <joint name="LARM_SHOULDER_P" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LARM_SHOULDER_P">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="LARM_SHOULDER_R" type="revolute">
+    <parent link="LARM_LINK1"/>
+    <child  link="LARM_LINK2"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="1 0 0"/>
+    <limit lower="-0.261799" upper="2.0944" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LARM_SHOULDER_R_trans" >
+    <actuator name="LARM_SHOULDER_R_motor" />
+    <joint name="LARM_SHOULDER_R" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LARM_SHOULDER_R">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="LARM_SHOULDER_Y" type="revolute">
+    <parent link="LARM_LINK2"/>
+    <child  link="LARM_LINK3"/>
+    <origin xyz="0 0 -0.263" rpy="0 -0 0 "/>
+    <axis   xyz="0 0 1"/>
+    <limit lower="-2.0944" upper="2.0944" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LARM_SHOULDER_Y_trans" >
+    <actuator name="LARM_SHOULDER_Y_motor" />
+    <joint name="LARM_SHOULDER_Y" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LARM_SHOULDER_Y">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="LARM_ELBOW" type="revolute">
+    <parent link="LARM_LINK3"/>
+    <child  link="LARM_LINK4"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-2.61799" upper="0.174533" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LARM_ELBOW_trans" >
+    <actuator name="LARM_ELBOW_motor" />
+    <joint name="LARM_ELBOW" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LARM_ELBOW">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="LARM_WRIST_Y" type="revolute">
+    <parent link="LARM_LINK4"/>
+    <child  link="LARM_LINK5"/>
+    <origin xyz="0 0 -0.247" rpy="0 -0 0 "/>
+    <axis   xyz="0 0 1"/>
+    <limit lower="-2.0944" upper="2.0944" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LARM_WRIST_Y_trans" >
+    <actuator name="LARM_WRIST_Y_motor" />
+    <joint name="LARM_WRIST_Y" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LARM_WRIST_Y">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="LARM_WRIST_P" type="revolute">
+    <parent link="LARM_LINK5"/>
+    <child  link="LARM_LINK6"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-2.0944" upper="2.0944" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LARM_WRIST_P_trans" >
+    <actuator name="LARM_WRIST_P_motor" />
+    <joint name="LARM_WRIST_P" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LARM_WRIST_P">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="LARM_WRIST_R" type="revolute">
+    <parent link="LARM_LINK6"/>
+    <child  link="LARM_LINK7"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="1 0 0"/>
+    <limit lower="-1.309" upper="0.122173" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="LARM_WRIST_R_trans" >
+    <actuator name="LARM_WRIST_R_motor" />
+    <joint name="LARM_WRIST_R" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="LARM_WRIST_R">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RARM_SHOULDER_P" type="revolute">
+    <parent link="WAIST_LINK3"/>
+    <child  link="RARM_LINK1"/>
+    <origin xyz="0 -0.21 0" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-3.14159" upper="1.5708" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RARM_SHOULDER_P_trans" >
+    <actuator name="RARM_SHOULDER_P_motor" />
+    <joint name="RARM_SHOULDER_P" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RARM_SHOULDER_P">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RARM_SHOULDER_R" type="revolute">
+    <parent link="RARM_LINK1"/>
+    <child  link="RARM_LINK2"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="1 0 0"/>
+    <limit lower="-2.0944" upper="0.261799" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RARM_SHOULDER_R_trans" >
+    <actuator name="RARM_SHOULDER_R_motor" />
+    <joint name="RARM_SHOULDER_R" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RARM_SHOULDER_R">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RARM_SHOULDER_Y" type="revolute">
+    <parent link="RARM_LINK2"/>
+    <child  link="RARM_LINK3"/>
+    <origin xyz="0 0 -0.263" rpy="0 -0 0 "/>
+    <axis   xyz="0 0 1"/>
+    <limit lower="-2.0944" upper="2.0944" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RARM_SHOULDER_Y_trans" >
+    <actuator name="RARM_SHOULDER_Y_motor" />
+    <joint name="RARM_SHOULDER_Y" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RARM_SHOULDER_Y">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RARM_ELBOW" type="revolute">
+    <parent link="RARM_LINK3"/>
+    <child  link="RARM_LINK4"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-2.61799" upper="0.174533" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RARM_ELBOW_trans" >
+    <actuator name="RARM_ELBOW_motor" />
+    <joint name="RARM_ELBOW" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RARM_ELBOW">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RARM_WRIST_Y" type="revolute">
+    <parent link="RARM_LINK4"/>
+    <child  link="RARM_LINK5"/>
+    <origin xyz="0 0 -0.247" rpy="0 -0 0 "/>
+    <axis   xyz="0 0 1"/>
+    <limit lower="-2.0944" upper="2.0944" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RARM_WRIST_Y_trans" >
+    <actuator name="RARM_WRIST_Y_motor" />
+    <joint name="RARM_WRIST_Y" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RARM_WRIST_Y">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RARM_WRIST_P" type="revolute">
+    <parent link="RARM_LINK5"/>
+    <child  link="RARM_LINK6"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="0 1 0"/>
+    <limit lower="-2.0944" upper="2.0944" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RARM_WRIST_P_trans" >
+    <actuator name="RARM_WRIST_P_motor" />
+    <joint name="RARM_WRIST_P" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RARM_WRIST_P">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+  <joint name="RARM_WRIST_R" type="revolute">
+    <parent link="RARM_LINK6"/>
+    <child  link="RARM_LINK7"/>
+    <origin xyz="0 0 0" rpy="0 -0 0 "/>
+    <axis   xyz="1 0 0"/>
+    <limit lower="-0.122173" upper="1.309" effort="200" velocity="40" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <transmission type="pr2_mechanism_model/SimpleTransmission" name="RARM_WRIST_R_trans" >
+    <actuator name="RARM_WRIST_R_motor" />
+    <joint name="RARM_WRIST_R" />
+    <mechanicalReduction>1</mechanicalReduction>
+  </transmission>
+  <gazebo reference="RARM_WRIST_R">
+    <cfmDamping>0.4</cfmDamping>
+  </gazebo>
+</robot>

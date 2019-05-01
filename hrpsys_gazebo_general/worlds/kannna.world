@@ -30,10 +30,18 @@
     </include>
     <!-- table to put a board on  -->
     <include>
-      <name>room73b2-karimoku-table_0</name>
-      <uri>model://room73b2-karimoku-table_static</uri>
+      <!-- <name>room73b2-karimoku-table</name> -->
+      <!-- <uri>model://room73b2-karimoku-table</uri> -->
+      <name>kannna-table</name>
+      <uri>model://kannna-table</uri>
       <pose>1.0 0.3 0.0 0.0 0.0 1.5708</pose>
     </include>
-    <!-- TODO : add wood board -->
+    <!-- wooden board to shave -->
+    <include>
+      <name>wooden_board</name>
+      <uri>model://wooden_board</uri>
+      <pose>1.0 0.3 0.7 0.0 0.0 1.5708</pose>
+    </include>
+    
   </world>
 </sdf>
